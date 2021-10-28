@@ -14,11 +14,9 @@ Gem::Specification.new do |s|
   s.platform = Gem::Platform::RUBY
   s.required_ruby_version = ">= 2.4"
 
-  s.add_runtime_dependency "eventide-postgres"
-
-  s.add_development_dependency "evt-messaging-fixtures"
-  s.add_development_dependency "evt-entity_projection-fixtures"
-  s.add_development_dependency "evt-schema-fixtures"
+  s.add_runtime_dependency "evt-dependency"
+  s.add_runtime_dependency "evt-configure"
 
   s.add_development_dependency "test_bench"
+  s.add_development_dependency "pry"
 end

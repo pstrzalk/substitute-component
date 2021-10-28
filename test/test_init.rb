@@ -9,11 +9,9 @@ puts
 
 require_relative "../init.rb"
 
+require "pry"
+
 require "test_bench"
 TestBench.activate
-
-require "messaging/fixtures"
-require "entity_projection/fixtures"
-require "schema/fixtures"
 
 include SubstituteComponent

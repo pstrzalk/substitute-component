@@ -1,5 +1,4 @@
-require "eventide/postgres"
-
+require "dependency"
 require 'configure'
 Configure.activate
 
