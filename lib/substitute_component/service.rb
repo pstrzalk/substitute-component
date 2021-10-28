@@ -18,11 +18,11 @@ module SubstituteComponent
 
       # send 50 emails
 
-      # transform input
-      input -= 55.12312
-
       feature = Feature.new
       feature_result = feature.do_feature_stuff(input)
+
+      # process result
+      feature_result -= 55.12312
 
       feature_result > 0
     end

@@ -7,7 +7,7 @@ service_parameter = gets.chomp.then do |str|
   str == "-" ? nil : str.to_i
 end
 
-service = Service.build
+service = Service.new
 result = service.do_service_stuff(service_parameter)
 
 pp result
