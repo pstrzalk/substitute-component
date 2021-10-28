@@ -1,9 +1,0 @@
-#!/usr/bin/env ruby
-
-require_relative "../init"
-
-require "component_host"
-
-ComponentHost.start("substitute-component") do |host|
-  host.register(SubstituteComponent::Start)
-end

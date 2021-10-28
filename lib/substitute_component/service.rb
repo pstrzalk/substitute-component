@@ -2,8 +2,6 @@ module SubstituteComponent
   class Service
     # include Dependency
 
-    # configure :service
-
     # dependency :feature, Feature
 
     # def configure(...); end

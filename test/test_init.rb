@@ -8,9 +8,9 @@ puts "TEST_BENCH_DETAIL: #{ENV["TEST_BENCH_DETAIL"].inspect}"
 puts
 
 require_relative "../init.rb"
-require "substitute_component/controls"
 
-require "test_bench"; TestBench.activate
+require "test_bench"
+TestBench.activate
 
 require "messaging/fixtures"
 require "entity_projection/fixtures"
